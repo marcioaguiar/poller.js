@@ -6,7 +6,7 @@ poll multiple http resources and report to librato.
 node index.js  [configuration file path]
 ```
 
-## formato do arquivo
+## configuration file
 ```json
 {
 	"email": "librato@email.com",
