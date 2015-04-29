@@ -46,8 +46,6 @@ function initPollJob(config) {
 
 function executeTest(librato, poll) {
 	
-	console.log('execute ', poll.key);
-	
 	var time = new Date().getTime();
 	
 	request(poll.url, function(error, response, body) {
