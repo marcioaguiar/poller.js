@@ -1,0 +1,19 @@
+{
+	"email": "librato@email.com",
+	"token": "librato-token",
+	
+	"polls": [
+		{
+			"key": "metric.key",
+			"url": "http://www.google.com",
+			"interval": 60		
+		},
+
+		{
+			"key": "metric.key2",
+			"url": "http://www.url2.com",
+			"interval": 600
+		}
+	]
+	
+}
