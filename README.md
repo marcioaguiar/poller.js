@@ -13,12 +13,14 @@ node index.js  [configuration file path]
 	"token": "librato-token",
 	
 	"polls": [
-		"metric.key": {
+		{
+			"key": "metric.key",
 			"url": "http://www.google.com",
 			"interval": 60		
 		},
 
-		"metric.key.2": {
+		{
+			"key": "metric.key.2",
 			"url": "http://www.url2.com",
 			"interval": 600
 		}
