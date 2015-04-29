@@ -1,12 +1,13 @@
 # poller.js
 
-consulta uma lista de URL periodicamente e envia
-os status para librato.
+poll multiple http resources and report to librato.
 
-node index.js  urls.json
+```shell
+node index.js  [configuration file path]
+```
 
 ## formato do arquivo
-
+```json
 {
 	"email": "librato@email.com",
 	"token": "librato-token",
@@ -24,3 +25,4 @@ node index.js  urls.json
 	]
 	
 }
+```
