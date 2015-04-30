@@ -59,7 +59,7 @@ function executeTest(librato, poll) {
  	  	code = response.statusCode;
  	  }
 
- 	  librato.measure(poll.key, code);
+ 	  librato.measure(poll.key + '.status', code);
  	  librato.measure(poll.key + '.time', time);
 	});
 }
